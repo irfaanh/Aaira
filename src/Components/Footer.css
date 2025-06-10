@@ -82,6 +82,12 @@
   color: #888;
   margin-top: 8px;
 }
+.footer-copywrite{
+  font-size: 13px;
+  color: #888;
+  margin-top: 8px;
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   .footer-container {

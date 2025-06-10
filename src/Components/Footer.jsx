@@ -67,6 +67,10 @@ const Footer = () => {
             <li><a href="/contact">Contact</a></li>
           </ul>
         </div> */}
+        <div className='footer-copywrite'>
+          <p>aairatravelsgroup@gmail.com</p>
+          <p>© 2025 Aaira. All rights reserved.</p>
+        </div>
     
     </footer>
   )
