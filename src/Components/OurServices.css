@@ -1,0 +1,11 @@
+.HeroServiceHead{
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .HeroServiceHead {
+  font-size: 29px;
+  margin-bottom: 1.5rem;
+  color: #15291c;
+}
+}

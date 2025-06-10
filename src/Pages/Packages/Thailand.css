@@ -1,0 +1,30 @@
+.banner-wrapper {
+  max-width: 90%;
+  margin-top: 90px;
+}
+
+.banner-wrapper img {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.headandpara{
+    display: flex;
+    justify-content: space-around;
+}
+.headandpara p{
+    width: 50%;
+    font-size: 15px;
+    text-align: start;
+}
+
+@media (max-width: 768px) {
+  .banner-wrapper img {
+    height: 20vh;
+  }
+  .headandpara{
+    display: none;
+  }
+    
+}

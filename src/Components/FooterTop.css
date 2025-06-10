@@ -1,0 +1,52 @@
+.hero-fixed-section {
+  height: 60vh;
+  background-image: url('../assets/images/footertop.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.overlay-content {
+  z-index: 2;
+  max-width: 700px;
+}
+
+.overlay-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.overlay-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-btn {
+  background-color: #15291c;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #1c3f2a;
+}
+
+@media (max-width: 768px) {
+  .overlay-content h1{
+    font-size: 2rem;
+  }
+    
+}

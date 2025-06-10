@@ -1,0 +1,50 @@
+.services {
+  margin-top: 40px;
+}
+
+.services__title {
+  font-size: 45px;
+  margin-bottom: 1.5rem;
+  color: #075a14;
+}
+
+.services__subtitle {
+  font-size: 15px;
+  margin-bottom: 2rem;
+  color: #15291c;
+}
+
+.services__item {
+  text-align: center;
+}
+
+.services__icon {
+  color: #075a14;
+}
+
+.services__name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #15291c;
+}
+
+.services__button {
+  color: #15291c;
+  border:1px solid #15291c;
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.services__button:hover {
+  background-color: #15291c;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .services__title {
+  font-size: 29px;
+  margin-bottom: 1.5rem;
+  color: #15291c;
+}
+}

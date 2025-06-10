@@ -1,0 +1,39 @@
+.logoimg{
+    height: 70px;
+    width: 70px;
+}
+@media (max-width: 768px) {
+    .logoimg{
+        height: 70px;
+        width: 70px;
+    }
+}
+/* .navbar{
+    background-color: #11311c;
+} */
+.navlink{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-weight: 500;
+}
+.nav-link{
+    color: #15291c;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.custom-toggler .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 4px auto;
+    background-color: #15291c;
+    transition: all 0.3s ease-in-out;
+}
+.container-fluid {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  

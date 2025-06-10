@@ -1,0 +1,40 @@
+.contact-section {
+  background-color: #f8f9fa;
+  margin-top: 50px;
+}
+.contact-head{
+  background-color: #15291c;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  color: #15291c;
+  font-weight: bold;
+}
+
+.section-subtext {
+  font-size: 1rem;
+  color: #333;
+}
+
+.social-icon {
+  font-size: 1.4rem;
+  color: #15291c;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  color: #0d6efd;
+}
+.sendmsg{
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid #15291c;
+  color: #15291c;
+  border-radius:5px ;
+}
+.sendmsg:hover{
+  background-color: #15291c;
+  color: white;
+}
