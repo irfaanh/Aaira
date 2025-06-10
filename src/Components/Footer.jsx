@@ -10,7 +10,7 @@ const Footer = () => {
         
         {/* Logo + Socials */}
         <div className="footer-section">
-          <img src="/images/aaira _logo_black.png" alt="Aaira Logo" className="footer-logo" />
+          <img src="/images/aairawhite.png" alt="Aaira Logo" className="footer-logo" />
           <div className="footer-socials mt-3">
             <a href="https://www.instagram.com/aairatravels/" target="_blank" rel="noreferrer"><FaInstagram /></a>
             {/* <a href="#"><FaFacebook /></a> */}
