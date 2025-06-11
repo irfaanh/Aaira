@@ -9,3 +9,9 @@
   color: #15291c;
 }
 }
+
+@media (max-width: 450px) {
+  .HeroServiceHead{
+    font-size: 27px;
+  }
+}

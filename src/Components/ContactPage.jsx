@@ -41,9 +41,9 @@ const Contact = () => {
                 <a href="https://www.instagram.com/aairatravels/" target="_blank" rel="noopener noreferrer">
                   <FaInstagram className="social-icon" />
                 </a>
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                   <FaFacebook className="social-icon" />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

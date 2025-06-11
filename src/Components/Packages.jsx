@@ -64,7 +64,7 @@ const Packages = () => {
   return (
     <div className="services container-fluid d-flex flex-column align-items-center py-5 mt-5">
       <div className="services__wrapper text-center mb-4">
-        <h1 className="fw-bolder">Uncover Your Dream Getaway</h1>
+        <h1 className="packagepagehead fw-bolder">Uncover Your Dream Getaway</h1>
         <p>
           Delve into our exclusive tour packages crafted to deliver unforgettable experiences, scenic wonders, and moments you'll cherish forever.
         </p>
