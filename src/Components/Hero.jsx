@@ -28,8 +28,8 @@ const Hero = () => {
         muted
         src={images[currentIndex]}
         alt="Hero Background"
-        className="w-100 h-100 object-fit-cover position-absolute top-0 start-0"
-        style={{ objectPosition: 'center', zIndex: 1 }}
+        className="heroimg w-100 h-100 object-fit-cover position-absolute top-0 start-0"
+        // style={{ objectPosition: 'center', zIndex: 1 }}
       />
 
       {/* Overlay Content */}

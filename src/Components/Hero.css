@@ -63,6 +63,10 @@
     padding: 10px;
   }
 } */
+ .heroimg{
+  object-fit: cover;
+  object-position: center;
+ }
  .herocaption{
   font-weight: 500;
   font-size: 20px;
@@ -94,11 +98,14 @@
 @media (max-width: 500px) {
   .custom-hero-container {
     height: 600px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .heroSectionHead {
     font-size: 40px;
+  }
+  .heroimg {
+    object-position: 40% center;
   }
 }
 
