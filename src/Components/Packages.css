@@ -15,6 +15,10 @@
 .card-text {
   font-size: 0.90rem;
 }
+.packagecardsection{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .moreifolink a{
     color: #15291c;

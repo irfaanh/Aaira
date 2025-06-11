@@ -1,9 +1,14 @@
 import './Packages.css';
 import manali from '../assets/images/packages/manali/manalibanner.webp';
+import kashmir from '../assets/images/packages/kashmir/jammu.webp';
+import wayanad from '../assets/images/packages/wayanad/wayanad.webp';
 
 import bali from '../assets/images/packages/bali/bali.jpg';
 import malaysia from '../assets/images/packages/malaysia/malaysiabanner.png';
 import thailand from '../assets/images/packages/thailand/thailand.jpg';
+import azerbaijan from '../assets/images/packages/azerbaijan/Azerbaijancover.jpg'
+import kazhakhstan from '../assets/images/packages/kazhakhstan/kazhakhstan.jpg'
+import georgia from '../assets/images/packages/georgia/georgia.jpg'
 
 import { CiStopwatch } from "react-icons/ci";
 // import { LiaMoneyCheckAltSolid } from "react-icons/lia";
@@ -11,21 +16,21 @@ import { CiStopwatch } from "react-icons/ci";
 const DomesticPackageArray = [
   {
     image: manali,
-    title: 'Manali',
+    title: 'Manali and Kullu',
     caption: 'A serene mountain retreat with snow-capped peaks and rich charm.',
     time: '5 Days 4 Nights',
     amount: 'Starting from ₹25,500/-',
     link:'/manali'
   },
   {
-    image: manali,
+    image: kashmir,
     title: 'Kashmir',
     caption: 'Explore the heaven on earth with snow peaks and valleys.',
     time: '6 Days 5 Nights',
     amount: 'Starting from ₹30,000/-'
   },
   {
-    image: manali,
+    image: wayanad,
     title: 'Wayanad',
     caption: 'Mist-covered hills, waterfalls, and wildlife adventures await.',
     time: '3 Days 2 Nights',
@@ -57,7 +62,32 @@ const InternationalPackageArray = [
     time: '4 Days 3 Nights',
     amount: 'Starting from ₹12,000/-',
     link:'/thailand'
+  },
+  {
+    image: azerbaijan,
+    title: 'Azerbaijan',
+    caption: 'A land where ancient flames meet futuristic skylines, wrapped in rich culture and Caspian charm.',
+    time: '4 Days 3 Nights',
+    amount: 'Starting from ₹12,000/-',
+    link:'/azerbaijan'
+  },
+  {
+    image: kazhakhstan,
+    title: 'Kazhakhstan',
+    caption: 'A boundless steppe of golden horizons, modern marvels, and nomadic spirit.',
+    time: '4 Days 3 Nights',
+    amount: 'Starting from ₹12,000/-',
+    link:'/kazhakhstan'
+  },
+  {
+    image: georgia,
+    title: 'Georgia',
+    caption: 'Where mountain peaks kiss the clouds and timeless traditions warm every traveler’s heart.',
+    time: '4 Days 3 Nights',
+    amount: 'Starting from ₹12,000/-',
+    link:'/georgia'
   }
+
 ];
 
 const Packages = () => {
