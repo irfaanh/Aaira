@@ -9,6 +9,7 @@ import Thailand from '../Pages/Packages/Thailand'
 import Bali from '../Pages/Packages/Bali'
 import Malaysia from '../Pages/Packages/Malaysia'
 import Manali from '../Pages/Packages/Manali'
+import Phuket from '../Pages/Packages/Phuket'
 
 const Router = [
   {
@@ -23,6 +24,8 @@ const Router = [
         {path:"/thailand",element:<Thailand/>},
         {path:"/bali",element:<Bali/>},
         {path:"/malaysia",element:<Malaysia/>},
+        {path:"/phuket",element:<Phuket/>},
+
 
         {path:"/manali",element:<Manali/>},
 

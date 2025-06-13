@@ -9,6 +9,8 @@ import thailand from '../assets/images/packages/thailand/thailand.jpg';
 import azerbaijan from '../assets/images/packages/azerbaijan/Azerbaijancover.jpg'
 import kazhakhstan from '../assets/images/packages/kazhakhstan/kazhakhstan.jpg'
 import georgia from '../assets/images/packages/georgia/georgia.jpg'
+import phuket from '../assets/images/packages/phuket/phuketcover.jpg'
+
 
 import { CiStopwatch } from "react-icons/ci";
 // import { LiaMoneyCheckAltSolid } from "react-icons/lia";
@@ -86,6 +88,14 @@ const InternationalPackageArray = [
     time: '4 Days 3 Nights',
     amount: 'Starting from ₹12,000/-',
     link:'/georgia'
+  },
+  {
+    image: phuket,
+    title: 'Phuket',
+    caption: 'Where mountain peaks kiss the clouds and timeless traditions warm every traveler’s heart.',
+    time: '4 Days 3 Nights',
+    amount: 'Starting from ₹12,000/-',
+    link:'/phuket'
   }
 
 ];
