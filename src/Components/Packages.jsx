@@ -52,7 +52,7 @@ const InternationalPackageArray = [
   {
     image: malaysia,
     title: 'Malaysia',
-    caption: 'A harmonious blend of lush rainforests, modern cities, and diverse traditions.',
+    caption: 'A harmonious blend of lush rainforests and diverse traditions.',
     time: '4 Days 3 Nights',
     amount: 'Starting from ₹30,000/-',
     link:'/malaysia'
@@ -90,7 +90,7 @@ const InternationalPackageArray = [
     link:'/georgia'
   },
   {
-    image: phuket,
+    image:  phuket,
     title: 'Phuket',
     caption: 'Where mountain peaks kiss the clouds and timeless traditions warm every traveler’s heart.',
     time: '4 Days 3 Nights',
