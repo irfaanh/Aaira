@@ -19,7 +19,7 @@ const DomesticPackageArray = [
   {
     image: manali,
     title: 'Manali and Kullu',
-    caption: 'A serene mountain retreat with snow-capped peaks and rich charm.',
+    caption: 'A serene mountain retreat with snow-capped peaks and charm.',
     time: '5 Days 4 Nights',
     amount: 'Starting from ₹25,500/-',
     link:'/manali'
