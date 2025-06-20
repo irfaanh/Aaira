@@ -3,6 +3,7 @@ import './App.css'
 import WhatsAppIcon from "./Components/WhatsAppIcon"
 import { BrowserRouter, useRoutes } from "react-router"
 import ScrollToTop from "./Components/ScrollToTop"
+import SmoothWrapper from "./Components/SmoothWrapper"
 
 function AppRoute() {
   const element = useRoutes(Router)
@@ -14,9 +15,11 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <ScrollToTop/>
-      <WhatsAppIcon/>
-      <AppRoute/>
+      <SmoothWrapper>
+        <ScrollToTop/>
+        <WhatsAppIcon/>
+        <AppRoute/>
+      </SmoothWrapper>
     </BrowserRouter>
     </>
   )
